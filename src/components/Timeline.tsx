@@ -16,7 +16,24 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2024 - Present"
+            date="2025 - Present"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Student-Trainee</h3>
+            <h4 className="vertical-timeline-element-subtitle">Godrej-sponsored Automation and Mechatronics at TATA IIS.</h4>
+            <p>
+            Completed a 3-week Automation and Mechatronics training at TATA IIS, sponsored by Godrej. I gained hands-on experience in pneumatics, 
+            hydraulics, electro-pneumatics, and electro-hydraulics. I learned PLC programming for automation control. 
+            The training covered sensors, actuators, relays, and industrial automation systems. This enhanced my skills in fluid power systems and 
+            industrial automation.
+            </p>
+          </VerticalTimelineElement>
+        <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="2024 - 2025"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
