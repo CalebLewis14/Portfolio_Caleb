@@ -1,0 +1,39 @@
+.proficiency-container {
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  margin: 0 auto;
+  color: #3498db;
+}
+
+.proficiency-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); // Responsive grid
+  gap: 20px; // Spacing between grid items
+}
+
+.proficiency-item {
+  display: flex;
+  justify-content: center; // Center the skill name horizontally
+  align-items: center; // Center the skill name vertically
+  padding: 10px;
+  background-color: #f0f0f0; // Optional: Add a background color
+  border-radius: 5px; // Optional: Add rounded corners
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); // Optional: Add a subtle shadow
+}
+
+.proficiency-name {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center; // Center the text
+}
+
+h1 {
+  color: white;
+}
+
+@media screen and (max-width: 1170px) {
+  .proficiency-container h1 {
+    text-align: center;
+  }
+}
