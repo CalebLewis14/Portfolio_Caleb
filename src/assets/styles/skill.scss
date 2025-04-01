@@ -6,34 +6,77 @@
   color: #3498db;
 }
 
+.proficiency-container h1 {
+  margin-bottom: 25px;
+  color: white;
+  text-align: center;
+}
+
 .proficiency-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); // Responsive grid
-  gap: 20px; // Spacing between grid items
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); // Increased min width for rating
+  gap: 20px;
 }
 
 .proficiency-item {
   display: flex;
-  justify-content: center; // Center the skill name horizontally
-  align-items: center; // Center the skill name vertically
-  padding: 10px;
-  background-color: #f0f0f0; // Optional: Add a background color
-  border-radius: 5px; // Optional: Add rounded corners
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); // Optional: Add a subtle shadow
+  justify-content: space-between; // Changed to space-between for name and rating
+  align-items: center;
+  padding: 15px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  }
 }
 
 .proficiency-name {
   font-weight: bold;
   font-size: 18px;
-  text-align: center; // Center the text
+  color: #2c3e50;
 }
 
-h1 {
-  color: white;
+.proficiency-rating {
+  font-weight: bold;
+  font-size: 16px;
+  color: #3498db;
+  background-color: rgba(52, 152, 219, 0.1);
+  padding: 3px 8px;
+  border-radius: 10px;
 }
 
 @media screen and (max-width: 1170px) {
   .proficiency-container h1 {
     text-align: center;
+  }
+  
+  .proficiency-list {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .proficiency-container {
+    width: 90%;
+  }
+  
+  .proficiency-list {
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  }
+  
+  .proficiency-item {
+    padding: 10px;
+  }
+  
+  .proficiency-name {
+    font-size: 16px;
+  }
+  
+  .proficiency-rating {
+    font-size: 14px;
   }
 }

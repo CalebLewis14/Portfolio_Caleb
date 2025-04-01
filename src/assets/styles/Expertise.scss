@@ -74,14 +74,21 @@
         
         .skills-container .skills-grid .skill {
             padding-bottom: 40%;
-        }
-        .skills-container h1{
-            text-align: center;
-        }
-        .flex-chips{
             text-align: center;
         }
 
+        .skills-container svg {
+            display: block;
+            margin: 0 auto;
+        }
+        
+        .skills-container h1 {
+            text-align: center;
+        }
+        
+        .flex-chips {
+            text-align: center;
+        }
     }
 
     @media (max-width: 567px) {
@@ -89,11 +96,18 @@
             font-size: 12px;
             padding-top: 50px;
         }
-        p{
+        
+        p {
             text-align: center;
         }
-        h3{
+        
+        h3 {
             text-align: center;
+        }
+        
+        .skills-container svg {
+            display: block;
+            margin: 0 auto;
         }
     }
 }
