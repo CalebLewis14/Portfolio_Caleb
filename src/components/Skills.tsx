@@ -7,16 +7,16 @@ interface SkillProps {
 }
 
 const skills: SkillProps[] = [
-  { name: 'C/C++', rating: 8 },
+  { name: 'C/C++', rating: 9 },
   { name: 'Python', rating: 9 },
   { name: 'HTML', rating: 7 },
-  { name: 'CSS', rating: 6 },
-  { name: 'Bootstrap', rating: 8 },
+  { name: 'CSS', rating: 7 },
+  { name: 'Bootstrap', rating: 7 },
   { name: 'SQL', rating: 7 },
-  { name: 'Embedded C', rating: 8 },
-  { name: 'Assembly', rating: 6 },
-  { name: 'JavaScript', rating: 7 },
-  { name: 'React', rating: 8 },
+  { name: 'Embedded C', rating: 9 },
+  { name: 'Assembly', rating: 9 },
+  { name: 'JavaScript', rating: 6 },
+  { name: 'React', rating: 6 },
 ];
 
 const ProficiencySection: React.FC = () => {
