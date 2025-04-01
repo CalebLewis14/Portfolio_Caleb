@@ -24,7 +24,7 @@ function Contact() {
               <a href="https://www.instagram.com/cal.eb14/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                 <Instagram className="icon" />
               </a>
-              <a href="https://docs.google.com/document/d/1ns9gVwzbPCbQQkOwjT-1H3_sOf6v7DeC21Y71oLO2EQ/edit?usp=drive_link" target="_blank" rel="noopener noreferrer" className="pdf-link">
+              <a href="https://docs.google.com/document/d/1ns9gVwzbPCbQQkOwjT-1H3_sOf6v7DeC21Y71oLO2EQ/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className="pdf-link">
                 <PictureAsPdfIcon className="icon" />
               </a>
             </p>

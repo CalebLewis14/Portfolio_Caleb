@@ -19,7 +19,7 @@ function Main() {
             <a href="https://github.com/CalebLewis14" target="_blank" rel="noreferrer"><GitHubIcon/></a>
             <a href="https://www.linkedin.com/in/caleb-lewis-8099a6271/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
             <a href="https://www.instagram.com/cal.eb14/" target="_blank" rel="noreferrer"><Instagram/></a>
-            <a href="https://docs.google.com/document/d/1ns9gVwzbPCbQQkOwjT-1H3_sOf6v7DeC21Y71oLO2EQ/edit?usp=drive_link" target="_blank" rel="noopener noreferrer" className="pdf-link"><PictureAsPdfIcon className="icon" /></a>
+            <a href="https://docs.google.com/document/d/1ns9gVwzbPCbQQkOwjT-1H3_sOf6v7DeC21Y71oLO2EQ/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className="pdf-link"><PictureAsPdfIcon className="icon" /></a>
           </div>
           <h1 className="h1">Caleb Lewis</h1>
           <p>ECS Student-Intern | Team Project Cell at Fr.CRCE</p>
@@ -28,7 +28,7 @@ function Main() {
             <a href="https://github.com/CalebLewis14" target="_blank" rel="noreferrer"><GitHubIcon/></a>
             <a href="https://www.linkedin.com/in/caleb-lewis-8099a6271/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
             <a href="https://www.instagram.com/cal.eb14/" target="_blank" rel="noreferrer"><Instagram/></a>
-            <a href="https://docs.google.com/document/d/1ns9gVwzbPCbQQkOwjT-1H3_sOf6v7DeC21Y71oLO2EQ/edit?usp=drive_link" target="_blank" rel="noopener noreferrer" className="pdf-link"><PictureAsPdfIcon className="icon" /></a>
+            <a href="https://docs.google.com/document/d/1ns9gVwzbPCbQQkOwjT-1H3_sOf6v7DeC21Y71oLO2EQ/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className="pdf-link"><PictureAsPdfIcon className="icon" /></a>
           </div>
         </div>
       </div>
