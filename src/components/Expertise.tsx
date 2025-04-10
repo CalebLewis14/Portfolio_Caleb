@@ -49,12 +49,12 @@ function Expertise() {
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faReact} size="3x"/>
-                    <h3>App/Web Development</h3>
-                    <p>💥 Mobile & Web Development using React Native and React.js.</p>  
-                    <p>💥 UI/UX Design with HTML, CSS, SCSS, Bootstrap, and Tailwind CSS</p>  
-                    <p>💥 Firebase Integration for authentication, real-time database, and cloud storage.</p>  
-                    <p>💥 Animations & UI Enhancements with CSS animations and React Native Animations.</p>   
+                <FontAwesomeIcon icon={faReact} size="3x" />
+                    <h3>Web/App & AI-ML Development</h3>
+                    <p>💥 Web & Mobile App Development using React.js and React Native.</p>
+                    <p>💥 Modern UI/UX Design using HTML, CSS, SCSS, Bootstrap, and Tailwind CSS.</p>
+                    <p>💥 Backend & Cloud Integration with Firebase for auth, real-time DB, and storage.</p>
+                    <p>💥 AI/ML Integration for intelligent features using Python, Ultralytics, Open-cv, and Numpy.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsSecond.map((label, index) => (
