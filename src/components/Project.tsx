@@ -31,7 +31,7 @@ function Project() {
             <div className="project">
                 <a href="https://www.linkedin.com/in/caleb-lewis-8099a6271/" target="_blank" rel="noreferrer"><img src={infi} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://www.linkedin.com/in/caleb-lewis-8099a6271/" target="_blank" rel="noreferrer"><h2>INFI</h2></a>
-                <p><b>(Ongoing) </b>A Robot assiting the Elderly</p>
+                <p>Introducing INFI, the intelligent AI robot designed to revolutionize home automation. INFI seamlessly controls IoT devices, assists elderly citizens with daily tasks, provides round-the-clock surveillance and security, and is equipped with a first aid kit. With advanced face recognition technology, INFI ensures personalized interaction, enhancing convenience and safety in your home.</p>
             </div>
             <div className="project">
                 <a href="https://www.linkedin.com/in/caleb-lewis-8099a6271/" target="_blank" rel="noreferrer"><img src={robosumo} className="zoom" alt="thumbnail" width="100%"/></a>
