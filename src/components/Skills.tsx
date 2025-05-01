@@ -17,6 +17,7 @@ const skills: SkillProps[] = [
   { name: 'Assembly', rating: 9 },
   { name: 'JavaScript', rating: 6 },
   { name: 'React', rating: 6 },
+  { name: 'PLC Programming', rating: 7 },
 ];
 
 const ProficiencySection: React.FC = () => {
