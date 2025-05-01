@@ -5,6 +5,8 @@ import streetlight from '../assets/images/streetlight.jpeg';
 import robosumo from '../assets/images/robosumo_bot.jpeg';
 import watch from '../assets/images/watch_health.jpeg';
 import infi from '../assets/images/infi.jpeg';
+import app from '../assets/images/infi_app.jpeg';
+
 
 import '../assets/styles/Project.scss';
 
@@ -44,7 +46,7 @@ function Project() {
                 <p>Spearheaded a team building a health monitoring watch for real-time tracking of vital signs.</p>
             </div>
             <div className="project">
-                <a href="https://www.linkedin.com/in/caleb-lewis-8099a6271/" target="_blank" rel="noreferrer"><img src={watch} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://www.linkedin.com/in/caleb-lewis-8099a6271/" target="_blank" rel="noreferrer"><img src={app} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://www.linkedin.com/in/caleb-lewis-8099a6271/" target="_blank" rel="noreferrer"><h2>INFI App</h2></a>
                 <p>An app build to monitor the robot, smart watch and switch board.</p>
             </div>
