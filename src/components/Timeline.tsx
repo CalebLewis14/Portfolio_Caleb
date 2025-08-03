@@ -23,8 +23,11 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Hardware Lead</h3>
             <h4 className="vertical-timeline-element-subtitle">Project Cell, Fr.CRCE</h4>
             <p>
-            As the Hardware Lead, I led the team in designing and implementing a Robosumo robot and a
-            Smart watch along with helping the team organize and manage a technical event in which i helped build the hardware system.
+            I engineered and operated a combat robot, optimizing its design, mobility, and attack mechanisms for high-impact robotic battles.
+            Spearheaded a team building a health monitoring watch for real-time tracking of vital signs.
+            Designed a system for an event organised by project cell where RFID cards were used to store encrypted passcodes (flags), which participants had to scan at designated checkpoints.
+            Mentored students in IoT technologies and co-conducted a hands-on workshop with my teammate, guiding participants through real-world applications of sensors, microcontrollers, and connected systems.
+            Built the hardware and programmed a line-following robot for a competition, ensuring precise sensor integration and smooth path navigation.
             </p>
           </VerticalTimelineElement>
         <VerticalTimelineElement
