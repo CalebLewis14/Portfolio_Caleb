@@ -31,11 +31,6 @@ function Project() {
                 <p>Built and Exhibited a prototype of urban and rural infrastructure smart poles at ACE TECH Expo at NESCO,Goregoan under Supernova Lighting Industries.</p>
             </div>
             <div className="project">
-                <a href="https://www.linkedin.com/in/caleb-lewis-8099a6271/" target="_blank" rel="noreferrer"><img src={infi} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.linkedin.com/in/caleb-lewis-8099a6271/" target="_blank" rel="noreferrer"><h2>INFI</h2></a>
-                <p>Introducing INFI, the intelligent AI robot designed to revolutionize home automation. INFI seamlessly controls IoT devices, assists elderly citizens with daily tasks, provides round-the-clock surveillance and security, and is equipped with a first aid kit. With advanced face recognition technology, INFI ensures personalized interaction, enhancing convenience and safety in your home.</p>
-            </div>
-            <div className="project">
                 <a href="https://www.linkedin.com/in/caleb-lewis-8099a6271/" target="_blank" rel="noreferrer"><img src={robosumo} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://www.linkedin.com/in/caleb-lewis-8099a6271/" target="_blank" rel="noreferrer"><h2>RoboSumo Bot</h2></a>
                 <p>I engineered and operated a combat robot, optimizing its design, mobility, and attack mechanisms for high-impact robotic battles.</p>
@@ -44,6 +39,11 @@ function Project() {
                 <a href="https://www.linkedin.com/in/caleb-lewis-8099a6271/" target="_blank" rel="noreferrer"><img src={watch} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://www.linkedin.com/in/caleb-lewis-8099a6271/" target="_blank" rel="noreferrer"><h2>Smart Watch</h2></a>
                 <p>Spearheaded a team building a health monitoring watch for real-time tracking of vital signs.</p>
+            </div>
+            <div className="project">
+                <a href="https://www.linkedin.com/in/caleb-lewis-8099a6271/" target="_blank" rel="noreferrer"><img src={infi} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://www.linkedin.com/in/caleb-lewis-8099a6271/" target="_blank" rel="noreferrer"><h2>INFI</h2></a>
+                <p>Introducing INFI, the intelligent AI robot designed to revolutionize home automation. INFI seamlessly controls IoT devices, assists elderly citizens with daily tasks, provides round-the-clock surveillance and security, and is equipped with a first aid kit. With advanced face recognition technology, INFI ensures personalized interaction, enhancing convenience and safety in your home.</p>
             </div>
             <div className="project">
                 <a href="https://www.linkedin.com/in/caleb-lewis-8099a6271/" target="_blank" rel="noreferrer"><img src={app} className="zoom" alt="thumbnail" width="100%"/></a>

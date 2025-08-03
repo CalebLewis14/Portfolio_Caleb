@@ -37,7 +37,7 @@ function Expertise() {
                     <FontAwesomeIcon icon={faMicrochip} size="3x"/>
                     <h3>Embedded/IOT</h3>
                     <p>💥 Embedded Systems And RTOS, FreeRTOS.</p>  
-                    <p>💥 Communication Protocols like I2C, SPI, Serial, Uart and HTTP.</p>  
+                    <p>💥 Communication Protocols like I2C, SPI, Uart and HTTP.</p>  
                     <p>💥 Databases like Firebase and ThinkSpeak for real-time database, authentication, and storage.</p>  
                     <p>💥 Sensors, Actuators, Signal Conditioning Circuits, Etc.</p>  
                     <div className="flex-chips">

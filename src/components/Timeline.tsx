@@ -12,6 +12,21 @@ function Timeline() {
       <div className="items-container">
         <h1>Timeline</h1>
         <VerticalTimeline>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="2024 - 2025"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Hardware Lead</h3>
+            <h4 className="vertical-timeline-element-subtitle">Project Cell, Fr.CRCE</h4>
+            <p>
+            As the Hardware Lead, I led the team in designing and implementing a Robosumo robot and a
+            Smart watch along with helping the team organize and manage a technical event in which i helped build the hardware system.
+            </p>
+          </VerticalTimelineElement>
         <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}

@@ -29,14 +29,14 @@ function Workedon() {
                 <p>Servo Motor <b>(MG90,M995/6)</b></p>
                 <p>DC/Stepper Motor <b>(Johnson,BO)</b></p>
                 <p>Speaker<b>(Ethernet)</b></p>
-                <p>LED Display<b>(P3 64x64)</b></p>
+                {/* <p>LED Display<b>(P3 64x64)</b></p> */}
             </div>
             <div className="workedon zoom">
                 <h2>Controllers</h2>
                 <p>Arduino Uno</p>
                 <p>Esp</p>
                 <p>Raspberry Pi</p>
-                <p>8051</p>
+                <p>8051/8086</p>
                 <p>Gateway</p>
             </div>
             <div className="workedon zoom">
@@ -48,7 +48,7 @@ function Workedon() {
                 <p>Universal Asynchronous Receiver/Transmitter <b>(UART)</b></p>
                 <p>Serial Peripheral Interface <b>(SPI)</b></p>
                 <p>Radio-Frequency IDentification <b>(RFID)</b></p>
-                <p>Radio Frequency <b>(RF)</b></p>
+                {/* <p>Radio Frequency <b>(RF)</b></p> */}
             </div>
         </div>
     </div>
