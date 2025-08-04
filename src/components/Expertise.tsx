@@ -19,12 +19,15 @@ const labelsSecond = [
     "HTML",
     "CSS",
     "Bootstrap",
-    "TailwindCSS"
+    "TailwindCSS",
+    "Python",
 ];
 
 const labelsThird = [
     "Arduino IDE",
-    "Proteus"
+    "Proteus",
+    "LTSpice",
+    "Tinkercad"
 ];
 
 function Expertise() {
