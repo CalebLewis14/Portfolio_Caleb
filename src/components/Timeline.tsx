@@ -86,7 +86,7 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Internship</h3>
             <h4 className="vertical-timeline-element-subtitle">Supernova Lighting Industries Kandivali, Mumbai</h4>
             <p>
-              Ongoing
+              Built a custom IoT gateway on ESP32 and Raspberry Pi and integrated it into an advanced Smartpole deployment, bridging field devices with centralized databases. Converted prototype code into industrial‑grade embedded software and established reliable RDBMS connectivity for seamless data flow. Engineered Smartpole hardware, designed power distribution with redundancy, and load‑tested the system to ensure stability, safety, and resilience in real‑world conditions.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
