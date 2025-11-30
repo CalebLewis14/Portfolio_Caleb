@@ -7,6 +7,7 @@ import watch from '../assets/images/watch_health.jpeg';
 import infi from '../assets/images/infi.jpeg';
 import app from '../assets/images/infi_app.jpeg';
 import solar from '../assets/images/smart_solar.png';
+import harvesthub from '../assets/images/harvesthub.jpeg';
 
 
 import '../assets/styles/Project.scss';
@@ -55,6 +56,13 @@ function Project() {
                 <a href="https://www.linkedin.com/in/caleb-lewis-8099a6271/" target="_blank" rel="noreferrer"><img src={solar} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://www.linkedin.com/in/caleb-lewis-8099a6271/" target="_blank" rel="noreferrer"><h2>Smart Solar</h2></a>
                 <p>Smart Solar Tracker – Built an Arduino-based solar panel system that automatically tracks the sun’s position for optimal energy capture. Smart Solar with BJT Control – Designed a solar lighting system using a BJT transistor to switch the light on/off based on solar panel voltage levels.</p>
+            </div>
+            <div className="project">
+                <a href="https://www.linkedin.com/in/caleb-lewis-8099a6271/" target="_blank" rel="noreferrer"><img src={harvesthub} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://www.linkedin.com/in/caleb-lewis-8099a6271/" target="_blank" rel="noreferrer"><h2>Harvest Hub</h2></a>
+                <p>We built a complete IoT-based remote farming system where ESP sensor nodes send live environmental data (soil moisture, temperature, humidity, pH, and light) to a gateway, which then pushes it to Firebase Cloud.
+                   From there, we built a clean, responsive Next.js dashboard that brings the farm to your screen — anywhere, anytime.
+                </p>
             </div>
         </div>
     </div>

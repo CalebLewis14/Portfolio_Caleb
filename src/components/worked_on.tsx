@@ -20,6 +20,8 @@ function Workedon() {
                 <p>RFID <b>(RC522)</b></p>
                 <p>CCTV Camera<b>(Ethernet)</b></p>
                 <p>GPS<b>(Neo 6m)</b></p>
+                <p>A9G Board</p>
+                <p>Lidar x2</p>
             </div>
             <div className="workedon zoom">
                 <h2>Output Components</h2>
@@ -27,7 +29,7 @@ function Workedon() {
                 <p>OLED Display <b>(ssd1306)</b></p>
                 <p>Speakers</p>
                 <p>Servo Motor <b>(MG90,M995/6)</b></p>
-                <p>DC/Stepper Motor <b>(Johnson,BO)</b></p>
+                <p>DC/Stepper Motor <b>(Johnson,BO,Planetary)</b></p>
                 <p>Speaker<b>(Ethernet)</b></p>
                 {/* <p>LED Display<b>(P3 64x64)</b></p> */}
             </div>
@@ -38,12 +40,13 @@ function Workedon() {
                 <p>Raspberry Pi</p>
                 <p>8051/8086</p>
                 <p>Gateway</p>
+                <p>Jetson Nano 2gb</p>
             </div>
             <div className="workedon zoom">
                 <h2>Protocols</h2>
                 <p>Hypertext Transfer Protocol <b>(HTTP)</b></p>
-                <p>Wireless Fidelity <b>(WFI)</b></p>
-                <p>Bluetooth</p>
+                <p>Wireless Fidelity <b>(WIFI)</b></p>
+                <p>Bluetooth<b>(BLE)</b></p>
                 <p>Inter-Integrated Circuits <b>(I2C)</b></p>
                 <p>Universal Asynchronous Receiver/Transmitter <b>(UART)</b></p>
                 <p>Serial Peripheral Interface <b>(SPI)</b></p>
