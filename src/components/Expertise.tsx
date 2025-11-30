@@ -10,7 +10,8 @@ const labelsFirst = [
     "C++",
     "Python",
     "Espressif",
-    "Raspberry Pi"
+    "Raspberry Pi",
+    "ROS"
 ];
 
 const labelsSecond = [
